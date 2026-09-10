@@ -2,17 +2,15 @@ export const site = {
   name: "Namaste Guest House",
   shortName: "Namaste",
   location: "Ilupeju, Lagos",
-  fullLocation: "Ilupeju, Lagos, Nigeria",
+  streetAddress: "8 Alice Fatimo Street, Off Coker Road, Ilupeju, Lagos 100252",
   tagline: "Feel at Home in Lagos.",
   supportingCopy:
     "A comfortable place to stay, rest and experience Lagos.",
-  // Demo/placeholder contact details — to be replaced with the real
-  // property details before this concept goes live.
-  whatsappNumber: "2348000000000",
-  whatsappDisplay: "+234 800 000 0000",
-  phoneDisplay: "+234 800 000 0000",
-  email: "hello@namasteguesthouse.demo",
-  mapsQuery: "Namaste Guest House, Ilupeju, Lagos, Nigeria",
+  whatsappNumber: "2347011202739",
+  whatsappDisplay: "+234 701 120 2739",
+  phoneDisplay: "+234 701 120 2739",
+  email: "namasteghs@gmail.com",
+  mapsQuery: "8 Alice Fatimo Street, Off Coker Road, Ilupeju, Lagos 100252, Nigeria",
 };
 
 export const navLinks = [

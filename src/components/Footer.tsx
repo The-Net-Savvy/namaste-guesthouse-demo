@@ -7,9 +7,19 @@ export default function Footer() {
         <div className="grid gap-12 sm:grid-cols-3">
           <div>
             <p className="font-display text-2xl">{site.name}</p>
-            <p className="mt-3 text-sm leading-relaxed text-paper/70">{site.fullLocation}</p>
-            <p className="mt-6 text-sm text-paper/70">{site.phoneDisplay} (demo)</p>
-            <p className="text-sm text-paper/70">{site.email} (demo)</p>
+            <p className="mt-3 text-sm leading-relaxed text-paper/70">{site.streetAddress}</p>
+            <a
+              href={`tel:+${site.whatsappNumber}`}
+              className="mt-6 block text-sm text-paper/70 transition-colors hover:text-paper"
+            >
+              {site.phoneDisplay}
+            </a>
+            <a
+              href={`mailto:${site.email}`}
+              className="block text-sm text-paper/70 transition-colors hover:text-paper"
+            >
+              {site.email}
+            </a>
           </div>
 
           <div>

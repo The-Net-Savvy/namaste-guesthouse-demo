@@ -11,11 +11,11 @@ export default function Location() {
             <h2 className="font-display text-4xl leading-[1.1] text-espresso md:text-5xl">
               {site.name}
             </h2>
-            <p className="mt-2 text-lg text-stone">{site.fullLocation}</p>
+            <p className="mt-2 text-lg text-stone">{site.streetAddress}</p>
             <p className="mt-6 max-w-md leading-relaxed text-stone">
               Set on the quiet streets of Ilupeju, close to Lagos&apos;s business districts
               and major routes across the mainland — an easy, calm base for exploring the
-              city. Full address details are shared with guests upon booking confirmation.
+              city.
             </p>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.mapsQuery)}`}
